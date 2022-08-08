@@ -262,7 +262,7 @@ nav {
 
 .page__one .arrow {
   position: absolute;
-  bottom: 50px;
+  bottom: 70px;
   -webkit-animation: jump 0.7s linear infinite;
           animation: jump 0.7s linear infinite;
 }
@@ -445,7 +445,7 @@ nav {
 @media screen and (max-width: 991.98px) {
   header {
     position: absolute;
-    padding: 5px;
+    padding: 10px;
   }
 
   .menu {
