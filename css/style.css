@@ -478,8 +478,8 @@ nav {
 
   .menu .menu__item {
     margin-top: 20px;
-    margin-left: 15px;
-    width: 92%;
+    margin-left: 20px;
+    width: 90%;
   }
 
   .menu .menu__item:last-child {
@@ -490,7 +490,7 @@ nav {
   .menu .tariffs {
     width: 100%;
     margin: 0;
-    margin-top: 50px;
+    margin-top: 60px;
     padding: 15px 0;
     text-align: center;
     text-transform: uppercase;
