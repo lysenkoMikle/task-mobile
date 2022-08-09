@@ -1,5 +1,7 @@
 // Custom Scripts
 // Custom scripts
+AOS.init();
+
 function burgerMenu() {
 	const burger = document.querySelector(".burger");
 	const menu = document.querySelector(".menu");
@@ -27,7 +29,6 @@ burgerMenu();
 
 function fixedNav() {
 	const nav = document.querySelector("nav");
-
 	const breakpoint = 1;
 	if (window.scrollY >= breakpoint) {
 		nav.classList.add("fixed__nav");
@@ -36,3 +37,4 @@ function fixedNav() {
 	}
 }
 window.addEventListener("scroll", fixedNav);
+

@@ -118,8 +118,8 @@ html {
   }
 
   0% {
-    -webkit-transform: translateY(4px);
-            transform: translateY(4px);
+    -webkit-transform: translateY(-6px);
+            transform: translateY(-6px);
   }
 }
 
@@ -130,8 +130,8 @@ html {
   }
 
   0% {
-    -webkit-transform: translateY(4px);
-            transform: translateY(4px);
+    -webkit-transform: translateY(-6px);
+            transform: translateY(-6px);
   }
 }
 
@@ -263,8 +263,8 @@ nav {
 .page__one .arrow {
   position: absolute;
   bottom: 70px;
-  -webkit-animation: jump 0.7s linear infinite;
-          animation: jump 0.7s linear infinite;
+  -webkit-animation: jump 0.9s linear infinite;
+          animation: jump 0.9s linear infinite;
 }
 
 .page__two::after {
